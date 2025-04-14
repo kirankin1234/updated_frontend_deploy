@@ -1,0 +1,42 @@
+.home-container {
+    width: 100%;
+    max-width: 100vw;
+    /* Full width */
+    margin: 0 auto;
+    padding-right: 35px;
+    background-color: rgb(227, 237, 246);
+}
+
+.home-carousel {
+    width: 100%;
+}
+
+.carousel-slide {
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.featured-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    padding: 8px;
+}
+
+.featured-product-card {
+    /* Remove border-radius here */
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-product-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
